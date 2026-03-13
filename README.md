@@ -21,16 +21,16 @@ cd ~/Repos/Courses/goph547 # on Mac/Linux or whichever directory you prefer. [No
 app such as Dropbox or OneDrive because the synchronization may interfere with the operation of git and cause conflicts. Rest assured that using git with a remote server achieves the ability to backup files and work from multiple different machines that is usually the purpose of using file synchronization programs.]
 
 3. If you have an SSH key setup on your machine, clone your new repository with:
-git clone <git@github.com>:USER/goph547-f2026-lab01-stOJ.git
+git clone <git@github.com>:USER/goph547-w2026-MDT01-stOJ.git
 If you do not have an SSH key setup, you can use:
-git clone <https://github.com/USER/goph547-f2026-lab01-stOJ.git>
+git clone <https://github.com/USER/goph547-w2026-MDT01-stOJ.git>
 and you may need to enter your GitHub password.
 If you installed the GitHub CLI, you can use:
-gh repo clone USER/goph547-f2026-lab01-stOJ
+gh repo clone USER/goph547-w2026-MDT01-stOJ
 
-4. You should now have a directory called goph547-f2026-lab01-stOJ, which you can check by entering: "ls" to list the directory contents and make sure that you see it.
+4. You should now have a directory called goph547-w2026-MDT01-stOJ, which you can check by entering: "ls" to list the directory contents and make sure that you see it.
 
-6. Move into the new directory with: "cd goph547-f2026-lab01-stOJ". This is the directory where you will create and track your source code for the project.
+6. Move into the new directory with: "cd goph547-w2026-MDT01-stOJ". This is the directory where you will create and track your source code for the project.
 
  
 7. You can confirm that this directory is tracked with git in a few ways. You can enter: "ls -Hidden # on Windows or ls -a # on Mac/Linux" and confirm that you see the hidden directory .git, which is where git stores the files needed to track your project’s current state and history. Most of the time you will not need to enter this directory, but its presence indicates active tracking by git. You can also enter some git commands and confirm thatyou get sensible output: "git status # to see current state information, git remote -v # to see the name and address of the remote, git log # to page through commit history, and q to exit". With the last command, you should see at least one commit already from when you initialized the repository on GitHub. This is a useful command if you want to reset to an earlier commit, because you can see the commit messages and corresponding commit IDs. Now that your repository is initialized on GitHub and you have a local copy, you should set up a virtual environment for your Python code development.

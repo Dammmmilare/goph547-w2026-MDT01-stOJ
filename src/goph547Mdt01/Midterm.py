@@ -67,10 +67,7 @@ def theta_unit_vector(position):
     ])
 
 
-# ============================================================
-# PART I — MULTIPLE CHOICE
-# ============================================================
-
+# Multiple Choice Answers for Part I
 def part_i_answers():
 
     answers = {
@@ -81,12 +78,12 @@ def part_i_answers():
         5: "b, c, and d",
         6: "d) A direction in the xz-plane",
         7: "d",
-        8: "a",
+        8: "a and c",
         9: "-GMx/r³",
         10: "b and d"
     }
 
-    print("\nPART I - MULTIPLE CHOICE\n")
+    print("\nPART I - Answers\n")
 
     for q, ans in answers.items():
         print(f"Q{q:02d}: {ans}")
@@ -94,9 +91,7 @@ def part_i_answers():
     return answers
 
 
-# ============================================================
-# PART II — VECTOR OPERATIONS
-# ============================================================
+# Written Solutions for Part II in python
 
 def part_ii_solution():
 
@@ -144,9 +139,7 @@ def part_ii_solution():
     }
 
 
-# ============================================================
-# PART III — GRAVITATIONAL FLUX
-# ============================================================
+# Written response part III in python
 
 def part_iii_solution():
 
@@ -177,9 +170,7 @@ def part_iii_solution():
     }
 
 
-# ============================================================
-# PART IV — THEORETICAL GRAVITY
-# ============================================================
+# Written response part IV in python
 
 def part_iv_solution():
 
@@ -227,9 +218,7 @@ def part_iv_solution():
     }
 
 
-# ============================================================
-# MAIN
-# ============================================================
+# Main function to run all parts of the midterm solutions
 
 def main():
 
@@ -243,7 +232,7 @@ def main():
 
     iv = part_iv_solution()
 
-    print("\nSUMMARY\n")
+    print("\nAnswers\n")
 
     print("Part II |g| =", ii["g_mag"])
     print("Part III Flux =", iii["flux"])

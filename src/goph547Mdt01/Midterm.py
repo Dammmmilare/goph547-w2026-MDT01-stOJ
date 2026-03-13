@@ -12,20 +12,16 @@ IV  Theoretical Gravity in a Rotating Frame
 
 import numpy as np
 
-# ============================================================
-# CONSTANTS
-# ============================================================
+# provided constants for the calculation.
 
 G = 6.67430e-11           # Gravitational constant [m^3 kg^-1 s^-2]
-M_EARTH = 5.972e24        # Earth mass [kg]
-A_EQUATOR = 6378137       # Equatorial radius [m]
+M_EARTH = 5.972e24        # Mass of Earth [kg]
+A_EQUATOR = 6378137       # Radius of the equator [m]
 FLATTENING = 1 / 298.257  # Earth flattening
-OMEGA_EARTH = 7.292115e-5 # Earth rotation rate [rad/s]
+OMEGA_EARTH = 7.292115e-5 # Rate of rotation of the earth [rad/s]
 
 
-# ============================================================
-# HELPER FUNCTIONS
-# ============================================================
+# Driver Functions to support our calculations.
 
 def vector_magnitude(v):
     return np.sqrt(np.sum(v**2))
